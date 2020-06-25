@@ -93,3 +93,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-flow: column nowrap;
+  }
+}
