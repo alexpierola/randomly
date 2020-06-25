@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+$primary: #ffcd3c;
+$primaryDark: #cca52e;
+$secondary: #35d0ba;
+$secondaryDark: #279e8c;
+$red: #d92027;
+$redDark: #ad191e;
+
+:root {
+  --animate-duration: 800ms;
+}
+
+* {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 1rem !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  .logo {
+    width: 16rem;
+  }
+  a {
+    color: $primary;
+    transition: all 0.3s;
+    &:hover {
+      color: $primaryDark;
+    }
+  }
+}
+
+.content-center {
+  justify-content: center !important;
+  align-items: center;
+}
+
+.button {
+  border-color: transparent !important;
+  font-weight: bold;
+  color: #fff !important;
+  transition: all 0.3s;
+  width: 100%;
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 0.125em rgba(217, 32, 39, 0.25) !important;
+  }
+  &.btn-primary {
+    background-color: $primary;
+    &:hover {
+      background-color: $primaryDark;
+    }
+  }
+  &.btn-secondary {
+    background-color: $secondary;
+    &:hover {
+      background-color: $secondaryDark;
+    }
+  }
+  &.btn-delete {
+    background-color: $red;
+    width: 3rem;
+    font-family: 'Font Awesome\ 5 Free' !important;
+    &:hover {
+      background-color: $redDark;
+    }
+  }
+  &.btn-add, &.btn-rnd {
+    flex: 0.48;
+  }
+}
+
+.Home {
+  flex-flow: column nowrap !important;
+}
+
+.inText {
+  flex: 0.98;
+  border-color: #dbdbdb !important;
+  transition: all 0.3s;
+  &:focus,
+  &:active {
+    box-shadow: 0 0 8px rgba(255, 205, 60, 0.5);
+  }
+}
+
+.in-container {
+  justify-content: space-between;
+  align-items: center;
+}

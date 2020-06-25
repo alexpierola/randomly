@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/randomly/static/css/main.4d792cb4.chunk.css",
+    "main.js": "/randomly/static/js/main.49540f62.chunk.js",
+    "main.js.map": "/randomly/static/js/main.49540f62.chunk.js.map",
+    "runtime-main.js": "/randomly/static/js/runtime-main.53738bb0.js",
+    "runtime-main.js.map": "/randomly/static/js/runtime-main.53738bb0.js.map",
+    "static/css/2.215683b3.chunk.css": "/randomly/static/css/2.215683b3.chunk.css",
+    "static/js/2.00d6dddc.chunk.js": "/randomly/static/js/2.00d6dddc.chunk.js",
+    "static/js/2.00d6dddc.chunk.js.map": "/randomly/static/js/2.00d6dddc.chunk.js.map",
+    "index.html": "/randomly/index.html",
+    "precache-manifest.8153d60b537c328f06e4b603dd41bdf7.js": "/randomly/precache-manifest.8153d60b537c328f06e4b603dd41bdf7.js",
+    "service-worker.js": "/randomly/service-worker.js",
+    "static/css/2.215683b3.chunk.css.map": "/randomly/static/css/2.215683b3.chunk.css.map",
+    "static/css/main.4d792cb4.chunk.css.map": "/randomly/static/css/main.4d792cb4.chunk.css.map",
+    "static/js/2.00d6dddc.chunk.js.LICENSE.txt": "/randomly/static/js/2.00d6dddc.chunk.js.LICENSE.txt",
+    "static/media/randomly.svg": "/randomly/static/media/randomly.72b6d021.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53738bb0.js",
+    "static/css/2.215683b3.chunk.css",
+    "static/js/2.00d6dddc.chunk.js",
+    "static/css/main.4d792cb4.chunk.css",
+    "static/js/main.49540f62.chunk.js"
+  ]
+}
